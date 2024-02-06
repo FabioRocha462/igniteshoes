@@ -16,7 +16,7 @@ export function Sizes({ onSelect, selected }: Props) {
       </Heading>
 
       <FlatList
-        data={['35', '36', '37', '38', '39', '40', '41']}
+        data={['35', '36', '37', '38', '39', '40', '41','42']}
         keyExtractor={item => item}
         renderItem={({ item }) => (
           <Size

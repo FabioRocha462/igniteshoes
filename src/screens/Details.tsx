@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Heading, Image, ScrollView, Text, VStack, useToast, HStack } from 'native-base';
 
+
 import { useCart } from '../hooks/useCart';
 
 import { PRODUCTS } from '../data/products';
@@ -27,7 +28,9 @@ export function Details() {
   const { navigate } = useNavigation();
   const { addProductCart } = useCart();
 
+
   const { productId } = route.params as RouteParamsProps;
+
 
   async function handleAddProductToCart() {
     try {

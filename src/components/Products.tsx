@@ -15,7 +15,7 @@ export function Products({ data, brand }: Props) {
 
   return (
     <VStack flex={1}>
-      <HeaderList title={brand} counter={PRODUCTS.length} />
+      <HeaderList title={brand} counter={data.length} />
 
       <FlatList
         data={data}

@@ -20,7 +20,7 @@ export function HomeHeader() {
         </Text>
 
         <Heading color="gray.100" fontSize="md" fontFamily="heading">
-          Rodrigo Gonçalves
+          Fábio Rocha
         </Heading>
       </VStack>
 
